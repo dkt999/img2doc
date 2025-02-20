@@ -1,0 +1,35 @@
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\Img2Word.exe.config
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\Img2Word.exe
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\Img2Word.pdb
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\obj\Debug\Img2Word.csprojResolveAssemblyReference.cache
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\obj\Debug\Img2Word.Form1.resources
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\obj\Debug\Img2Word.Properties.Resources.resources
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\obj\Debug\Img2Word.csproj.GenerateResource.Cache
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\obj\Debug\Img2Word.exe
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\obj\Debug\Img2Word.pdb
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\Xceed.Document.NET.dll
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\Xceed.Words.NET.dll
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\PdfSharp.Charting.dll
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\PdfSharp.dll
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\PdfSharp.xml
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\PdfSharp.Charting.xml
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\dkt99\OneDrive - MSFT\AIKA\Documents\Visual Studio 2015\Projects\Img2Word\Img2Word\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\Img2Word.exe.config
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.exe
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.pdb
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\Img2Word.exe
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\Img2Word.pdb
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\PdfSharp.Charting.dll
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\PdfSharp.dll
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\Xceed.Document.NET.dll
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\Xceed.Words.NET.dll
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\PdfSharp.xml
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\PdfSharp.Charting.xml
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.csprojResolveAssemblyReference.cache
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.Form1.resources
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.Properties.Resources.resources
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.csproj.GenerateResource.Cache
+C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.csproj.AssemblyReference.cache
