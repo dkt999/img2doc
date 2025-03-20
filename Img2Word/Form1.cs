@@ -346,14 +346,12 @@ namespace Img2Word
 
             return totalSize;
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             lvImages.Items.Clear();
             imageList.Images.Clear();
             imagePaths.Clear();
         }
-
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             string tempFolder = Path.Combine(Path.GetTempPath(), "CompressedImages");
@@ -369,12 +367,10 @@ namespace Img2Word
                 MessageBox.Show("Lỗi khi xóa thư mục tạm: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void nudQuality_ValueChanged(object sender, EventArgs e)
         {
 
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             if (lvImages.Items.Count == 0)
@@ -382,26 +378,12 @@ namespace Img2Word
                 MessageBox.Show("Danh sách ảnh trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
-            // Lấy danh sách file từ lvImages
             List<string> imagePaths = new List<string>();
-            /*
-            foreach (ListViewItem item in lvImages.Items)
-            {
-                string filePath = item.Tag as string; // Lưu đường dẫn gốc trong Tag
-                if (!string.IsNullOrEmpty(filePath) && File.Exists(filePath))
-                {
-                    imagePaths.Add(filePath);
-                }
-            }
-            */
-
-                // Giả lập sự kiện DragDrop để nén lại ảnh
-                DragEventArgs dragEventArgs = new DragEventArgs(
-                    new DataObject(DataFormats.FileDrop, imagePaths.ToArray()),
-                    0, 0, 0, DragDropEffects.Copy, DragDropEffects.Copy
-                );
-                LvImages_DragDrop(lvImages, dragEventArgs);
+            DragEventArgs dragEventArgs = new DragEventArgs(
+                new DataObject(DataFormats.FileDrop, imagePaths.ToArray()),
+                0, 0, 0, DragDropEffects.Copy, DragDropEffects.Copy
+            );
+            LvImages_DragDrop(lvImages, dragEventArgs);
          
         }
     }
