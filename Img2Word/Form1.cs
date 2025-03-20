@@ -89,7 +89,6 @@ namespace Img2Word
                 double sizeInMB = Math.Round(totalSize / (1024.0 * 1024.0), 1);
 
                 lbOutputSize.Text = sizeInMB.ToString() + " MB";
-                MessageBox.Show("OK");
             }
         }
         private void CompressImage(string inputPath, string outputPath, int quality)
