@@ -32,4 +32,3 @@ C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.csprojResolveAssembl
 C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.Form1.resources
 C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.Properties.Resources.resources
 C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.csproj.GenerateResource.Cache
-C:\Users\dkt99\Desktop\Img2Word\Img2Word\obj\Debug\Img2Word.csproj.AssemblyReference.cache

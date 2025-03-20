@@ -32,7 +32,6 @@ namespace Img2Word
         }
         private void LvImages_DragDrop(object sender, DragEventArgs e)
         {
-            
             string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
             foreach (string file in files)
             {
@@ -48,7 +47,8 @@ namespace Img2Word
                     // Thêm ảnh vào ListView
                     ListViewItem item = new ListViewItem(Path.GetFileName(file))
                     {
-                        ImageKey = file // Gán ảnh từ ImageList
+                        ImageKey = file,
+                        Tag = file // Gán đường dẫn ảnh gốc vào Tag
                     };
                     lvImages.Items.Add(item);
                 }
@@ -89,6 +89,7 @@ namespace Img2Word
                 double sizeInMB = Math.Round(totalSize / (1024.0 * 1024.0), 1);
 
                 lbOutputSize.Text = sizeInMB.ToString() + " MB";
+                MessageBox.Show("OK");
             }
         }
         private void CompressImage(string inputPath, string outputPath, int quality)
@@ -367,6 +368,41 @@ namespace Img2Word
             {
                 MessageBox.Show("Lỗi khi xóa thư mục tạm: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void nudQuality_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (lvImages.Items.Count == 0)
+            {
+                MessageBox.Show("Danh sách ảnh trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Lấy danh sách file từ lvImages
+            List<string> imagePaths = new List<string>();
+            /*
+            foreach (ListViewItem item in lvImages.Items)
+            {
+                string filePath = item.Tag as string; // Lưu đường dẫn gốc trong Tag
+                if (!string.IsNullOrEmpty(filePath) && File.Exists(filePath))
+                {
+                    imagePaths.Add(filePath);
+                }
+            }
+            */
+
+                // Giả lập sự kiện DragDrop để nén lại ảnh
+                DragEventArgs dragEventArgs = new DragEventArgs(
+                    new DataObject(DataFormats.FileDrop, imagePaths.ToArray()),
+                    0, 0, 0, DragDropEffects.Copy, DragDropEffects.Copy
+                );
+                LvImages_DragDrop(lvImages, dragEventArgs);
+         
         }
     }
 }
